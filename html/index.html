@@ -33,7 +33,7 @@
                 <a class="nav-link" href="#Arquitecturas">ARQUITECTURAS <span class="sr-only">(current)</span></a>
               </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#tecnologias">TECNOLOGIASs <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#tecnologias">TECNOLOGIAS <span class="sr-only">(current)</span></a>
               </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#contactanos">CONTACTANOS<span class="sr-only">(current)</span></a>
@@ -41,35 +41,73 @@
            </ul>
          </div>
       </nav>
-      <div >
+      <div id="arquitecturas">
         <div class="row">
             <div class="col-md-4">
               <h2>El modelo cero y el codigo spaguetti</h2>
-              <img src="../img/ArquitecturasWebSpagetti.png" width="400" height=200" alt="">
+              <img src="../img/ArquitecturasWebSpagetti.png" width="400" height="200" alt="">
               <p>Soluciones iniciales cliente/servidor en las que tenemos una página JSP/ASP/PHP que se conecta a una base de datos y genera un nuevo contenido html. Es código spaguetti, el que nadie quiere tener que pero que en su momento se usó mucho. A día de hoy lo puedes encontrar en más sitios de los que se piensa. Como ventaja fundamental destaca su sencillez a nivel de arquitectura y como desventaja su poca flexibilidad y nula capacidad de reutilización</p>
             </div>
             <div class="col-md-4">
                 <br>
                 <h2>El modelo 1</h2>
                 <br>
-              <img src="../img/ArquitecturasWebModelo1-2.png"  width="400" height=200" alt="">
+              <img src="../img/ArquitecturasWebModelo1-2.png"  width="400" height="200" alt="">
               <p>Este fue un salto importante , promueve la modularización y el uso de componentes a través de la programación orientada a objeto. Fue desde mi punto de vista un gran salto. Hay enfoques tipo Rails que se apoyaron más en un patrón tipo Active Record y otros en Servicios y Repositorios como Spring. La clave fundamental es generar componentes en la capa de backend y aumentar la reutilización de esa parte.</p>
             </div>
             <div class="col-md-4">
                 <br>
                 <h2>El modelo 2 (MVC)</h2>
                 <br>
-              <img src="../img/ArquitecturasWebModelo2-2.png"  width="400" height=200" alt="">
+              <img src="../img/ArquitecturasWebModelo2-2.png"  width="400" height="200" alt="">
               <p>Quizás para mucha gente el modelo más importante, se apuesta por la separación de responsabilidades entre Vista, Controlador y Modelo. Prácticamente todos los frameworks web han implementado este enfoque de una forma u otra. Ejemplos son: Struts en Java , ASP.NET en Microsoft o Laravelen PHP.</p>
             </div>
             <div class="col-md-4">
                 <h2>El modelo FrontController/Enrutador</h2>
-                <img src="../img/ArquitecturasWebModeloMVC2-1.png" width="400" height=200" alt="">
+                <img src="../img/ArquitecturasWebModeloMVC2-1.png" width="400" height="200" alt="">
                 <p>Una evolución importante del modelo MVC fue el modelo MVC 2 o de FrontController que apuesta por una arquitectura en la que únicamente hay un controlador principal y gestiona todo a través de acciones. Esta es un poco la idea de muchos de los frameworks modernos con el concepto de router en la capa de presentación. El enfoque más clásico puede ser Struts en el lado del servidor o Spring MVC</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Arquitecturas Web y Ajax</h2>
+                <img src="../img/ArquitecturasWebAjax-1.png" width="400" height="200" alt="">
+                <p>Hasta ese momento todas las evoluciones se produjeron del lado del servidor. El lado cliente tenía pocas novedades. Es en esta situación cuando surge AJAX como tecnología para mejorar el rendimiento entre cliente y servidor. Esto supuso una verdadera revolución a la forma de programar</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Arquitecturas Web y SPA</h2>
+                <img src="../img/ArquitecturasWebSPASimple.png" width="400" height="200" alt="">
+                <p>Con la llegada del mundo móvil y la necesidad de tener las aplicaciones web cada vez más desconectadas surgen las arquitecturas SPA (Simple Page Application) . Su propuesta principal es dar mayor responsabilidad al navegador y que el se encargue de cargar las vistas y datos utilizando AJA</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Arquitecturas SPA y MVC</h2>
+                <img src="../img/ArquitecturasWebSPA2.png" width="400" height="200" alt="">
+                <p>Poco a poco el lado cliente comienza a tener más peso en los desarrollos y se necesita organizar mejor el código de JavaScript . Aparecen los primeros frameworks MVC de cliente como Backbone.js que permiten dividir las responsabilidades de la misma forma que en el servidor.</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Arquitecturas SPA y MVC</h2>
+                <img src="../img/ArquitecturasWebSPAComponentes-2.png" width="400" height="200" alt="">
+                <p>Estas arquitecturas empiezan a madurar rápidamente y aparecen tecnologías como Angular.js que promueve el uso del modelo MVC y la utilización de componentes en capa de presentación . Aparecen librerías complementarias como React que se centran en estos últimos.</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Arquitecturas Web Isomórficas</h2>
+                <img src="../img/ArquitecturasWebIsomorfica.png" width="400" height="200" alt="">
+                <p>Ahora mismo estamos entrando en otra fase , comienza a llegar el JavaScript Isomórfico . Si nos fijamos en el último diagrama la parte cliente y la parte servidor son muy parecidas. ¿Qué sucedería en el caso de que ambas partes estuvieran implementadas en JavaScript? . Pues que probablemente mucho código se podría compartir y según se ejecutara la aplicación en cliente o en servidor el comportamiento variaría</p>
               </div>
         </div>
       </div>
-      
+      <div id="tecnologias">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Tecnologías</h2>
+                <br>
+                <p>Backend es la capa de acceso a datos de un software o cualquier dispositivo, que no es directamente accesible por los usuarios, además contiene la lógica de la aplicación que maneja dichos datos. El Backend también accede al servidor, que es una aplicación especializada que entiende la forma como el navegador solicita cosas.
+                    Algunos de los lenguajes de programación de Backend son Python, PHP, Ruby, C# y Java, y así como en Frontend, cada uno de los anteriores tiene diferentes frameworks que te permiten trabajar mejor según el proyecto que estás desarrollando. En Platzi tenemos Django, Laravel, Ruby On Rails y ASP.Net, los hemos elegido sobre todo porque tienen una gran comunidad que los respalda</p>
+            </div>
+            <div class="col-md-6">
+                <h2>BACKEND</h2>
+                <img src="../img/mejores-lenguajes-de-programacion-2018-1080x675.jpg" height="350" width="600" alt="">
+            </div>
+        </div>
+      </div>
 
     
 </body>
