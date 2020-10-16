@@ -41,6 +41,34 @@
            </ul>
          </div>
       </nav>
+      <div >
+        <div class="row">
+            <div class="col-md-4">
+              <h2>El modelo cero y el codigo spaguetti</h2>
+              <img src="../img/ArquitecturasWebSpagetti.png" width="400" height=200" alt="">
+              <p>Soluciones iniciales cliente/servidor en las que tenemos una página JSP/ASP/PHP que se conecta a una base de datos y genera un nuevo contenido html. Es código spaguetti, el que nadie quiere tener que pero que en su momento se usó mucho. A día de hoy lo puedes encontrar en más sitios de los que se piensa. Como ventaja fundamental destaca su sencillez a nivel de arquitectura y como desventaja su poca flexibilidad y nula capacidad de reutilización</p>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <h2>El modelo 1</h2>
+                <br>
+              <img src="../img/ArquitecturasWebModelo1-2.png"  width="400" height=200" alt="">
+              <p>Este fue un salto importante , promueve la modularización y el uso de componentes a través de la programación orientada a objeto. Fue desde mi punto de vista un gran salto. Hay enfoques tipo Rails que se apoyaron más en un patrón tipo Active Record y otros en Servicios y Repositorios como Spring. La clave fundamental es generar componentes en la capa de backend y aumentar la reutilización de esa parte.</p>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <h2>El modelo 2 (MVC)</h2>
+                <br>
+              <img src="../img/ArquitecturasWebModelo2-2.png"  width="400" height=200" alt="">
+              <p>Quizás para mucha gente el modelo más importante, se apuesta por la separación de responsabilidades entre Vista, Controlador y Modelo. Prácticamente todos los frameworks web han implementado este enfoque de una forma u otra. Ejemplos son: Struts en Java , ASP.NET en Microsoft o Laravelen PHP.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>El modelo FrontController/Enrutador</h2>
+                <img src="../img/ArquitecturasWebModeloMVC2-1.png" width="400" height=200" alt="">
+                <p>Una evolución importante del modelo MVC fue el modelo MVC 2 o de FrontController que apuesta por una arquitectura en la que únicamente hay un controlador principal y gestiona todo a través de acciones. Esta es un poco la idea de muchos de los frameworks modernos con el concepto de router en la capa de presentación. El enfoque más clásico puede ser Struts en el lado del servidor o Spring MVC</p>
+              </div>
+        </div>
+      </div>
       
 
     
