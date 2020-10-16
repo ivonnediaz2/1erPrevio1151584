@@ -5,3 +5,10 @@
 .navbar {
     background-color: #AB1111;
   }
+
+  footer{
+      background-color:#AB1111 ;
+  }
+  footer h3{
+      color: white;
+  }
