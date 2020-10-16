@@ -12,3 +12,17 @@
   footer h3{
       color: white;
   }
+  footer p{
+      color: white;
+  }
+  #ultimo{
+      text-align: center;
+  }
+  form{
+    border: 5px;
+    border-radius: 3px;
+}
+#contactanos input {
+    
+    width: 500px;
+}
